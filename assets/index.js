@@ -202,7 +202,7 @@ var answerCheck = function (event) {
     timeleft = timeleft - 10;
   }
 
-  //go to next question, check if there is more questions
+  // make it so the questions randomize
   QuestionIndex++;
   if (arrayShuffledQuestions.length > QuestionIndex + 1) {
     setQuestion();
